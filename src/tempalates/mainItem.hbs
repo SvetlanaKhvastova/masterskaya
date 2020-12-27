@@ -1,0 +1,14 @@
+{{#each this}}
+<li class="videoWrapper">
+    <video src={{urlVideo}} poster={{posterSrc}} controls class="video"></video>
+    <h3 class="author">{{authorName}}</h3>
+</li>
+
+<ul class="pictureList">
+    {{#each pictureArr}}
+    <li>
+        <img src="{{picture}}" alt="image">
+    </li>
+    {{/each}}
+</ul>
+{{/each}}

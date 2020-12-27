@@ -1,0 +1,17 @@
+body {
+  background: black;
+  color: wheat;
+}
+
+.video {
+  width: 320px;
+}
+.pictureList {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 900px;
+}
+.pictureList li {
+  margin-right: 10px;
+  list-style: none;
+}
